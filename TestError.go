@@ -29,6 +29,7 @@ func Sqrt(x float64) (float64, error) {
 	return z2, nil
 }
 
+// Am adăugat o modificare
 func main() {
     fmt.Println(Sqrt(2))
 	fmt.Println(Sqrt(-2))
